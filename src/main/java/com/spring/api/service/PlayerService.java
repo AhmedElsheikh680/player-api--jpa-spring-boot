@@ -13,4 +13,7 @@ public interface PlayerService {
     public void addPlayer(Player player);
 
     public void deletePlayer(int id);
+
+
+    public Player getPlayerByName(String name);
 }

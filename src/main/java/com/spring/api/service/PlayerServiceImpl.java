@@ -34,4 +34,9 @@ public class PlayerServiceImpl implements PlayerService {
     public void deletePlayer(int id) {
         playerDao.deleteById(id);
     }
+
+    @Override
+    public Player getPlayerByName(String name) {
+        return playerDao.findByName(name);
+    }
 }
