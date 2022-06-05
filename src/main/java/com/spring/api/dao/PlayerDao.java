@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 //@RepositoryRestResource(path="persons")
 public interface PlayerDao extends JpaRepository<Player, Integer> {
 
-//    // http://localhost:8080/api/persons/search/findByName?name=Messi
+//    // http://localhost:8080/api/players/search/findByName?name=Messi
 //    Player findByName(@RequestParam String name);
 //
 //
